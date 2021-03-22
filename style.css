@@ -16,7 +16,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-#logo{
+/* #logo{
     display: block;
     
 }
@@ -24,7 +24,7 @@ body{
     height: 10rem;
     margin-top: -20rem;
     float: left;
-}
+} */
 .quote-container{
     width: auto;
     max-width: 900px;

@@ -11,30 +11,33 @@
 
 </head>
 <body>
-    <div id="logo">
+    <!-- <div id="logo">
         <img src="logo.png" alt="logo">
+    </div> -->
+
+    <div class="container">
+        <!-- Quote -->
+        <div class="quote-container" id="quote-container">
+            <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+            </div>
+            <!-- Author -->
+            <div class="author-quote">
+                <span id="author"></span>
+            </div>
+            <!-- Buttons -->
+            <div class="button-container">
+                <button class="twitter-button" title="Tweet This" id="twitter">
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button id="new-quote">New Quote</button>
+            </div>
+        </div>
+        <!-- Loader -->
+        <div class="loader" id="loader"></div>
     </div>
 
-    <!-- Quote -->
-    <div class="quote-container" id="quote-container">
-        <div class="quote-text">
-        <i class="fas fa-quote-left"></i>
-        <span id="quote"></span>
-        </div>
-        <!-- Author -->
-        <div class="author-quote">
-            <span id="author"></span>
-        </div>
-        <!-- Buttons -->
-        <div class="button-container">
-            <button class="twitter-button" title="Tweet This" id="twitter">
-                <i class="fab fa-twitter"></i>
-            </button>
-            <button id="new-quote">New Quote</button>
-        </div>
-    </div>
-    <!-- Loader -->
-    <div class="loader" id="loader"></div>
     <!-- Script -->
     <script src="script.js"></script>
 </body>
